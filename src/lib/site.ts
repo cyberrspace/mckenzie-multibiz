@@ -8,11 +8,11 @@ export const site = {
   shortName: "McKenzie",
   suffix: "Multibiz LLC",
   monogram: "M",
-  // TODO: replace with your real domain once purchased.
-  domain: "mckenziemultibiz.com",
-  url: "https://mckenziemultibiz.com",
-  // TODO: replace with the inbox that should receive enquiries.
-  email: "hello@mckenziemultibiz.com",
+  domain: "mckenziemultibizllc.com",
+  url: "https://mckenziemultibizllc.com",
+  // Enquiry inbox. Make sure this address receives mail
+  // (set up forwarding in Namecheap, see the steps after this file).
+  email: "hello@mckenziemultibizllc.com",
   phone: {
     display: "+1 (646) 653-9913",
     href: "tel:+16466539913",
