@@ -32,6 +32,11 @@ export const site = {
     "McKenzie Multibiz LLC is a multi-service digital agency based in Albuquerque, New Mexico, serving founders, authors and small businesses. Digital marketing, web development, grant applications, resume optimization and book publishing — scoped, priced and delivered as projects.",
 } as const;
 
+/** Logo assets (files live in /public/brand). */
+export const brand = {
+  mark: { src: "/brand/logo-mark.png", width: 512, height: 337 },
+} as const;
+
 /** Address formatted for display, e.g. in the footer and contact section. */
 export const addressLines = [
   `${site.address.street}, ${site.address.suite}`,

@@ -38,7 +38,7 @@ export default function Header() {
       >
         <div className="shell flex h-[74px] items-center justify-between">
           <a href="#main" aria-label={`${site.name} — home`}>
-            <Wordmark />
+            <Wordmark eager />
           </a>
 
           <nav className="hidden items-center gap-9 md:flex">

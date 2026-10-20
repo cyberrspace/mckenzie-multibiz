@@ -1,7 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import { Bricolage_Grotesque, Inter, JetBrains_Mono } from "next/font/google";
 import Script from "next/script";
-import { site } from "@/lib/site";
+import { brand, site } from "@/lib/site";
 import "./globals.css";
 
 const themeInitScript = `(function(){try{var stored=localStorage.getItem("theme");var prefersDark=window.matchMedia("(prefers-color-scheme: dark)").matches;if(stored==="dark"||(!stored&&prefersDark)){document.documentElement.classList.add("dark")}}catch(e){}})();`;
@@ -81,6 +81,7 @@ const jsonLd = {
   "@type": "ProfessionalService",
   name: site.name,
   url: site.url,
+  logo: `${site.url}${brand.mark.src}`,
   email: site.email,
   telephone: site.phone.e164,
   address: {
